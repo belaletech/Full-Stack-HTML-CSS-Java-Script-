@@ -1,5 +1,5 @@
 body {
-  background-color: lightgray;
+  background-color: linen;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
   margin: 0;
@@ -90,6 +90,7 @@ form {
   margin-top: 40px;
   cursor: pointer;
   transition: background-color 0.3s ease-in-out;
+  display: none;
 }
 #show-more-button:hover {
   background-color: #0077b5;
@@ -107,7 +108,7 @@ form {
   form {
     flex-direction: column;
   }
-  #search-input{
+  #search-input {
     margin-bottom: 20px;
     width: 85%;
   }
